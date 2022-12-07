@@ -1,0 +1,104 @@
+.error-message-name {
+  color: red;
+  position: absolute;
+  top: 40px;
+  right: 176px;
+}
+.error-message-pas {
+  color: red;
+  position: absolute;
+  top: 119px;
+  right: 176px;
+}
+.signin__sign-in-form {
+  max-width: 854px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(0 0 0 / 90%);
+  backdrop-filter: blur(3px);
+  flex-direction: column;
+  padding: 18px 5px 48px 5px;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  z-index: 500;
+}
+.signin__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top-right-radius: 50px;
+  background-image: linear-gradient(
+    99.99deg,
+    rgba(255, 255, 255, 1) -21.45%,
+    rgba(170, 20, 240, 1) 100%
+  );
+  background-color: rgba(83, 70, 134, 1);
+  background-blend-mode: darken;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #531e86;
+  margin-bottom: 36px;
+}
+.signin__header-title {
+  padding: 27px 0px 31px 41px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #f2f2f2;
+}
+.signin__sign-form-in-title {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  align-self: center;
+  margin-bottom: 24px;
+}
+.signin__sign-form-in-input-style {
+  background-color: #09010e;
+  padding: 18px 32px;
+  width: 100%;
+  max-width: 560px;
+  border: 2px solid #c8d1e6;
+  border-radius: 5px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  align-self: center;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+.signin__sign-form-in-input-style-psw {
+  margin-bottom: 32px;
+}
+.signin__sign-form-in-btn {
+  padding: 10px 37px;
+
+  background: linear-gradient(
+    99.99deg,
+    #b936f5 -21.45%,
+    #c64c85 100%,
+    #f1005b 100%
+  );
+
+  border: 1px solid #000000;
+  border-radius: 3px;
+  border: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #ffffff;
+  align-self: center;
+  cursor: pointer;
+}

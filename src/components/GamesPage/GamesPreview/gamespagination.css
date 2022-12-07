@@ -1,0 +1,95 @@
+.games-experiences__video-page{
+    display: flex;
+    justify-content: center;
+    padding: 0 35px 37px 68px;
+    }
+    .games-experiences__video-page-items{
+        display: flex;
+        list-style-type: none;
+        column-gap: 10px;
+        align-items: center;
+        z-index: 2;
+    }
+    
+    .games-experiences__video-page-item-number{ 
+        display: flex;  
+        align-items: center;
+    justify-content: center;
+        width: 32px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #DFE3E8;
+        border-radius: 4px;
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;    
+        color: #212B36;
+        z-index: 2;
+        cursor: pointer;
+    }
+    .games-experiences__video-page-item-number-active{  
+        background: #FFFFFF;
+        border: 1px solid #4200FF;  
+        color: #4200FF;
+        z-index: 2;
+    }
+    .games-experiences__video-page-item-number-arrow{
+        width: 32px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #DFE3E8;
+        border-radius: 4px;
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;    
+        color: #212B36;
+        z-index: 2;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+    
+    .games-experiences__video-page-item-number-arrow-active{
+        background: #919EAB;
+        opacity: 0.5;
+        border-radius: 4px;
+        z-index: 3;
+        cursor: no-drop;
+        
+    }
+    
+    .games-experiences__video{
+        position: relative;
+    
+    }
+    
+    .games-experiences__video-pagination{   
+        display: flex;
+        list-style-type: none;
+        column-gap: 10px;
+        align-items: center;
+        z-index: 2;
+    
+    }
+    .pagination3Point{
+        cursor:auto;
+    }
+    .empty-game{
+        max-width: 854px;
+        width: 100%;
+            display: flex;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 29px;
+            line-height: 29px;
+            color: #FFFFFF;
+            justify-content: center;
+            align-items: center;
+            height:570px;
+            
+    }

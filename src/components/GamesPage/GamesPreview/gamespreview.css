@@ -1,0 +1,96 @@
+.games-experiences__video-prev{   
+    padding: 0px 35px 0 58px;
+    margin-bottom: 27px; 
+}
+ .items{
+    position: relative;
+ }   
+.games-experiences__video-prev-item{  
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content:center;        
+    row-gap: 20px;
+    column-gap: 38px;
+    position: relative;
+   
+}
+.games-experiences__video-prev-item-emty{
+    height:1032px;
+}
+.games-experiences__video-prev-item-img{
+    display: flex;
+    position: relative;
+    
+    z-index: 2;
+    transition: all 0.2s ease-in;
+}
+.games-experiences__video-prev-item-img:hover{
+    cursor: pointer;
+    background-color: rgb(187, 22, 179);
+    box-shadow: 0 0 10px  #BC3CD8;
+    border-radius: 5px;   
+}
+.games-experiences__video-prev-item-img-opt{
+    border: 1px solid rgba(228, 229, 231, 0.23);
+    border-radius: 5px;
+    
+    width: 225px;
+    height: 178px;      
+
+    }
+  .games-experiences__video-prev-item-img-info-all{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    background: rgba(185, 54, 245, 0.25);
+    backdrop-filter: blur(55px);
+    border: none;
+    border-bottom-left-radius: 5px;
+    }    
+.games-experiences__video-prev-item-img-info{
+    max-width: 50%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+    
+    left: 0;
+    bottom: 0;
+    padding: 7px 13px;
+    word-break: break-word;
+}
+.games-experiences__video-prev-item-img-info-title{
+        font-family: 'Orbitron';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 7px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        line-height: 9px;
+        margin-bottom: 6px;
+}
+.games-experiences__video-prev-item-img-info-text{        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;   
+    line-height: 9px;
+    letter-spacing: -0.02em;   
+    color: #EFDEDE;
+}
+.games-experiences__video-page-item-number-active{  
+    background: #FFFFFF;
+    border: 1px solid #4200FF;  
+    color: #4200FF;
+    z-index: 2;
+}
+.games-experiences__video-page-item-number-arrow-active{
+    background: #919EAB;
+    opacity: 0.5;
+    border-radius: 4px;
+    z-index: 3;
+    cursor: no-drop;
+    
+}

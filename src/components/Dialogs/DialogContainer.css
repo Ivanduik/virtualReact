@@ -1,0 +1,41 @@
+.dialog-wripper {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  max-width: 854px;
+  width: 100%;
+  background-color: rgb(0 0 0 / 90%);
+  padding: 39px 7px 0px 5px;
+  margin: auto;
+  left: 0;
+  top: 0;
+  z-index: 500;
+  overflow: hidden;
+  transform: translate(-0px, 17%);
+}
+.dialog-wripper__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top-right-radius: 50px;
+  background-image: linear-gradient(
+    99.99deg,
+    rgba(255, 255, 255, 1) -21.45%,
+    rgba(170, 20, 240, 1) 100%
+  );
+  background-color: rgba(83, 70, 134, 1);
+  background-blend-mode: darken;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #531e86;
+}
+.dialog-wripper__header-title {
+  padding: 27px 0px 31px 41px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
