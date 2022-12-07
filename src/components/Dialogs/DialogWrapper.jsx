@@ -7,4 +7,5 @@ export const DialogWrapper = ({ children, closeDialog }) => {
       {children}
     </div>
   );
+  //};
 };
